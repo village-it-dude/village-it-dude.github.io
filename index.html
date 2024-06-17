@@ -1,1 +1,264 @@
-<h1>Welcome</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One Page Website</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Animate.css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Font Awesome CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <style>
+    .banner {
+      background: url('banner-image.jpg') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+    }
+
+    .card-img-top {
+      height: 150px;
+      object-fit: cover;
+    }
+
+    footer div {
+      position: fixed;
+      bottom: 20px;
+      right: calc(100% - 50%);
+    }
+
+    .svg-1 {
+      position: absolute;
+      top: -70px;
+      left: 0;
+      width: 450px;
+    }
+
+    .svg-2 {
+      position: absolute;
+      top: -55px;
+      left: 341px;
+      width: 425px;
+    }
+
+    .svg-3 {
+      position: absolute;
+      top: 277px;
+      left: 192px;
+      width: 300px;
+    }
+
+    .banner-height {
+      height: 600px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Logo -->
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/img/v-it-d-logo.png" alt="v-IT-d logo" width="200" class="d-inline-block align-text-top">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Banner Section -->
+  <section class="container-fluid">
+    <div class="row banner-height">
+      <div class="col-md-5 align-self-center">
+        <div class="text-center">
+          <h1 class="animate__animated animate__fadeInDown">Flexible Learning</h1>
+          <p>Any where, Any time, Start learning today!</p>
+        </div>
+      </div>
+      <div class="col-md-7 position-relative">
+        <svg class="svg-1" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#5CD0AA"
+            d="M51.2,-16.9C59.6,9.1,54.9,39.1,38.7,50.1C22.4,61.2,-5.3,53.3,-25.8,37.8C-46.4,22.4,-59.8,-0.7,-54.3,-22.8C-48.8,-44.8,-24.4,-65.8,-1.5,-65.4C21.4,-64.9,42.8,-42.9,51.2,-16.9Z"
+            transform="translate(100 100)" />
+        </svg>
+        <svg class="svg-2" id="sw-js-blob-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="sw-gradient" x1="0" x2="1" y1="1" y2="0">
+              <stop id="stop1" stop-color="rgba(92, 208, 170, 1)" offset="0%"></stop>
+              <stop id="stop2" stop-color="rgba(170.098, 233.442, 212.691, 1)" offset="100%"></stop>
+            </linearGradient>
+          </defs>
+          <path fill="url(#sw-gradient)"
+            d="M22.3,-27.6C29.4,-20.6,35.9,-14,36.9,-6.7C38,0.6,33.4,8.6,28.8,16.7C24.2,24.8,19.6,33,12.4,36.9C5.1,40.8,-4.7,40.5,-12.3,36.5C-19.8,32.6,-25,25,-27.6,17.5C-30.1,9.9,-30,2.3,-30,-6.6C-30,-15.5,-30.1,-25.8,-25.2,-33.2C-20.2,-40.5,-10.1,-45,-1.2,-43.5C7.6,-42,15.2,-34.6,22.3,-27.6Z"
+            width="100%" height="100%" transform="translate(50 50)" stroke-width="0"
+            style="transition: all 0.3s ease 0s;"></path>
+        </svg>
+        <svg class="svg-3" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+          <path fill="#5CD0AA"
+            d="M53.5,-66.4C67.1,-52.4,74.3,-33.4,76.8,-14.3C79.2,4.8,76.9,23.9,66.9,36.2C56.9,48.5,39.2,53.9,23.5,55.9C7.7,57.9,-6.2,56.5,-21.9,53.7C-37.6,50.8,-55.2,46.4,-64,35C-72.8,23.7,-72.9,5.4,-68.1,-10.3C-63.3,-26,-53.5,-39.1,-41.3,-53.3C-29.2,-67.5,-14.6,-82.9,2.7,-86.1C20,-89.3,39.9,-80.4,53.5,-66.4Z"
+            transform="translate(100 100)" />
+        </svg>
+      </div>
+    </div>
+
+
+  </section>
+  <!-- Cards Section -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-node-js.jpg" class="card-img-top" alt="Node JS">
+          <div class="card-body">
+            <h5 class="card-title">Node JS</h5>
+            <p class="card-text">Node.js is a JavaScript runtime built on Chrome's V8 JavaScript engine.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-javascript.jpg" class="card-img-top" alt="JavaScript">
+          <div class="card-body">
+            <h5 class="card-title">JavaScript</h5>
+            <p class="card-text">JavaScript is a programming language that is commonly used to create interactive
+              effects within web browsers.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-php.jpg" class="card-img-top" alt="PHP">
+          <div class="card-body">
+            <h5 class="card-title">PHP</h5>
+            <p class="card-text">PHP is a popular general-purpose scripting language that is especially suited to web
+              development.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-mysql.jpg" class="card-img-top" alt="MySQL">
+          <div class="card-body">
+            <h5 class="card-title">MySQL</h5>
+            <p class="card-text">MySQL is an open-source relational database management system.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-mssql.jpg" class="card-img-top" alt="MSSQL">
+          <div class="card-body">
+            <h5 class="card-title">MSSQL</h5>
+            <p class="card-text">Microsoft SQL Server is a relational database management system developed by Microsoft.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-mongodb.jpg" class="card-img-top" alt="MongoDB">
+          <div class="card-body">
+            <h5 class="card-title">MongoDB</h5>
+            <p class="card-text">MongoDB is a source-available cross-platform document-oriented database program.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-html.jpg" class="card-img-top" alt="HTML">
+          <div class="card-body">
+            <h5 class="card-title">HTML</h5>
+            <p class="card-text">HTML is the standard markup language for documents designed to be displayed in a web
+              browser.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-css3.jpg" class="card-img-top" alt="CSS">
+          <div class="card-body">
+            <h5 class="card-title">CSS</h5>
+            <p class="card-text">CSS is a stylesheet language used for describing the presentation of a document written
+              in HTML or XML.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-react-js.jpg" class="card-img-top" alt="React JS">
+          <div class="card-body">
+            <h5 class="card-title">React JS</h5>
+            <p class="card-text">React is a free and open-source front-end JavaScript library for building user
+              interfaces or UI components.</p>
+          </div>
+        </div>
+      </div>
+      <!-- <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="ubuntu.jpg" class="card-img-top" alt="Ubuntu Cloud">
+          <div class="card-body">
+            <h5 class="card-title">Ubuntu Cloud</h5>
+            <p class="card-text">Ubuntu Cloud is an open-source platform for building private and public clouds.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="apache.jpg" class="card-img-top" alt="Apache">
+          <div class="card-body">
+            <h5 class="card-title">Apache</h5>
+            <p class="card-text">The Apache HTTP Server is a free and open-source cross-platform web server software.
+            </p>
+          </div>
+        </div>
+      </div> -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card animate__animated animate__fadeInUp">
+          <img src="./assets/img/logo-nginx.jpg" class="card-img-top" alt="Nginx">
+          <div class="card-body">
+            <h5 class="card-title">Nginx</h5>
+            <p class="card-text">Nginx is a web server that can also be used as a reverse proxy, load balancer, mail
+              proxy, and HTTP cache.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Info Section -->
+  <section class="container my-5">
+    <div class="row">
+      <div class="col-12">
+        <h3>Contact Us</h3>
+        <p>Email: contact@example.com</p>
+        <p>GitHub: <a href="https://github.com/username" target="_blank">https://github.com/username</a></p>
+        <p>Website: <a href="https://example.com" target="_blank">https://example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/username" target="_blank">https://linkedin.com/in/username</a></p>
+        <p>Instagram: <a href="https://instagram.com/username" target="_blank">https://instagram.com/username</a></p>
+        <p>Facebook: <a href="https://facebook.com/username" target="_blank">https://facebook.com/username</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <svg class="w-100" id="wave" style="transform:rotate(0deg); transition: 0.3s" viewBox="0 0 1440 300" version="1.1"
+      xmlns="http://www.w3.org/2000/svg">
+      <defs>
+        <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+          <stop stop-color="rgba(92, 208, 170, 1)" offset="0%"></stop>
+          <stop stop-color="rgba(92, 208, 170, 1)" offset="100%"></stop>
+        </linearGradient>
+      </defs>
+      <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+        d="M0,147L60,138.8C120,131,240,114,360,122.5C480,131,600,163,720,147C840,131,960,65,1080,32.7C1200,0,1320,0,1440,57.2C1560,114,1680,229,1800,269.5C1920,310,2040,278,2160,285.8C2280,294,2400,343,2520,302.2C2640,261,2760,131,2880,114.3C3000,98,3120,196,3240,269.5C3360,343,3480,392,3600,359.3C3720,327,3840,212,3960,204.2C4080,196,4200,294,4320,285.8C4440,278,4560,163,4680,138.8C4800,114,4920,180,5040,236.8C5160,294,5280,343,5400,359.3C5520,376,5640,359,5760,302.2C5880,245,6000,147,6120,98C6240,49,6360,49,6480,73.5C6600,98,6720,147,6840,163.3C6960,180,7080,163,7200,138.8C7320,114,7440,82,7560,73.5C7680,65,7800,82,7920,138.8C8040,196,8160,294,8280,294C8400,294,8520,196,8580,147L8640,98L8640,490L8580,490C8520,490,8400,490,8280,490C8160,490,8040,490,7920,490C7800,490,7680,490,7560,490C7440,490,7320,490,7200,490C7080,490,6960,490,6840,490C6720,490,6600,490,6480,490C6360,490,6240,490,6120,490C6000,490,5880,490,5760,490C5640,490,5520,490,5400,490C5280,490,5160,490,5040,490C4920,490,4800,490,4680,490C4560,490,4440,490,4320,490C4200,490,4080,490,3960,490C3840,490,3720,490,3600,490C3480,490,3360,490,3240,490C3120,490,3000,490,2880,490C2760,490,2640,490,2520,490C2400,490,2280,490,2160,490C2040,490,1920,490,1800,490C1680,490,1560,490,1440,490C1320,490,1200,490,1080,490C960,490,840,490,720,490C600,490,480,490,360,490C240,490,120,490,60,490L0,490Z">
+      </path>
+    </svg>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
