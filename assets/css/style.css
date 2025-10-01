@@ -319,7 +319,7 @@ footer {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('banner-bg-hd.jpg') no-repeat center center/cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('https://village-it-dude.github.io/assets/img/banner-bg-hd.jpg') no-repeat center center/cover;
     color: #fff;
     text-align: center;
     padding: 150px 0 100px;
