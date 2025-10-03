@@ -45,6 +45,12 @@ $(document).ready(function() {
             },
             "entry.1084082112": { // Message Field ID
                 required: true,
+            },
+            "entry.498345686":{
+                required: true,
+                number:true,
+                minlength:10,
+                maxmaxlength:10
             }
         },
         highlight,
@@ -60,6 +66,12 @@ $(document).ready(function() {
             },
             "entry.1084082112": {
                 required: "Provide the Message",
+            },
+                        "entry.498345686":{
+                required: "Provide the Phone Number",
+                minlength:"Provide a min 10 digit phone number",
+                maxlength:"Provide a max 10 digit phone number",
+                number:"Provide a valid phone number"
             }
         },
         
