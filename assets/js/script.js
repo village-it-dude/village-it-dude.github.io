@@ -50,7 +50,7 @@ $(document).ready(function() {
                 required: true,
                 number:true,
                 minlength:10,
-                maxmaxlength:10
+                maxlength:10
             }
         },
         highlight,
