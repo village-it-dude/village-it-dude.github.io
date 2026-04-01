@@ -108,10 +108,13 @@ $(document).ready(function() {
                         // SUCCESS UI FEEDBACK
                         // alert('Thank you! Your message has been sent successfully.');
                         // The form's action will handle the actual submission to Google Forms.
-                        document.getElementById('formSuccess').classList.add('show');
+                        /* Contact Form */
+                       
                         setTimeout(() => {
-                            document.getElementById('formSuccess').classList.remove('show');
-                        }, 4000);
+                            document.getElementById('formSuccess').classList.add('show');
+                            setTimeout(() => document.getElementById('formSuccess').classList.remove('show'), 4000);
+                        }, 500);
+                       
                         
                         // Clear the form fields
                         form.reset(); 

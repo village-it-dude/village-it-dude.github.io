@@ -200,7 +200,7 @@ nav a:hover {
     color: #5cd0aa;
 }
 .error {
-    color: #ff4848;
+    color: #ff4848 !important;
 }
 .error-border{
     border: 1px solid #ff4848;
