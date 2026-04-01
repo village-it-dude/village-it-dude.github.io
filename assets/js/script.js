@@ -106,7 +106,12 @@ $(document).ready(function() {
                     if (jqXHR.status === 0 || jqXHR.status === 200) {
                         
                         // SUCCESS UI FEEDBACK
-                        alert('Thank you! Your message has been sent successfully.');
+                        // alert('Thank you! Your message has been sent successfully.');
+                        // The form's action will handle the actual submission to Google Forms.
+                        document.getElementById('formSuccess').classList.add('show');
+                        setTimeout(() => {
+                            document.getElementById('formSuccess').classList.remove('show');
+                        }, 4000);
                         
                         // Clear the form fields
                         form.reset(); 
